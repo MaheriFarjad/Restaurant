@@ -1,0 +1,254 @@
+   * {
+            font-family: sans-serif;
+            color: black;
+        }
+
+        header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            background-color: antiquewhite;
+
+        }
+
+
+        .data {
+            align-self: flex-end;
+
+        }
+
+        .tum {
+            text-align: center;
+        }
+
+        .tum h1 {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .data li {
+
+            display: inline;
+        }
+
+        .sign {
+            background: url("main.jpg") no-repeat center;
+            background-size: cover;
+            height: 500px;
+            min-height: 100vh;
+        }
+
+        .sign {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .Main-text h2 {
+            font-size: 20px;
+            color: rgb(235, 222, 222);
+            text-align: center;
+            background-color: rgba(46, 39, 39, .7);
+            padding: 5px;
+            font-weight: 300;
+
+
+
+        }
+        .data a{
+            text-decoration: none;
+        }
+        .tum a{
+            text-decoration: none;
+        }
+
+        .Main-text h3 {
+            font-size: 20px;
+            color: rgb(235, 222, 222);
+            text-align: center;
+            background-color: rgba(46, 39, 39, .7);
+            padding: 5px;
+            font-weight: 300;
+            display: inline-block;
+
+
+
+        }
+
+
+
+        .Main-text {
+            text-align: center;
+        }
+
+        input[type="text"] {
+
+            border: none;
+            padding: 6px;
+        }
+
+        .lolaloalalal {
+            padding: 5px 14px;
+
+        }
+
+        .Services {
+            display: flex;
+            padding: 15px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .Services img {
+            width: 100%;
+        }
+
+        .category {
+            position: relative;
+
+        }
+
+        .title {
+            position: absolute;
+            background-color: rgba(46, 39, 39, .7);
+            top: 20px;
+            text-align: center;
+            width: 100%;
+            padding: 5px 0px;
+            color: white;
+
+
+
+
+
+        }
+
+        .middle {
+            margin: 0 15px;
+        }
+        footer{
+            background: grey;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        footer li {
+            display: inline-block;
+            padding: 5px;
+            list-style: none;
+        }
+        footer a{
+            text-decoration: none;
+
+        }
+        a:hover {
+            color: red;
+        }
+        footer img {
+            padding-top:10px ;
+        }
+        #about-us {
+  padding: 30px;
+  background-color: #f8f8f8;
+}
+
+#about-us h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#about-us h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#about-us p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Style the team section */
+#about-us h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Add some spacing between team members */
+#about-us p {
+  margin-bottom: 10px;
+}
+
+/* Style the navigation links within the About Us section */
+#about-us a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+#about-us a:hover {
+  color: #0056b3;
+}
+#contact-us {
+    padding: 30px;
+    background-color: #f8f8f8;
+  }
+  
+  #contact-us h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  #contact-us p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form elements */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
